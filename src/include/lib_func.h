@@ -30,7 +30,7 @@ extern "C" {
 	{
 		int* stack_pointer;
 		int* stack_memory;
-		int* end;          // スタックが底をついたか確認するためのポインタ（構造体を変更して別実装にしても良い）
+		int* end;  // スタックが底をついたか確認するためのポインタ（構造体を変更して別実装にしても良い）
 	}STACK;
 
 	void initialize(STACK* s, size_t mem_size);   // mem_size の容量でスタック用のメモリを確保する
